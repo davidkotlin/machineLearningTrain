@@ -19,8 +19,8 @@ regr.fit(X, y)#使用特徵 X 和目標變數 y 擬合模型，讓模型學習�
 # print(predictedCO2)
 # new_data = pandas.DataFrame({'Weight': [2300,2400], 'Volume': [1300,1400]})
 # predictedCO2 = regr.predict(new_data)
-# print(regr.coef_,regr.coef_[0],regr.coef_[1])#印出重量與體積的回歸係數
-# print(regr.intercept_)
+print(regr.coef_,regr.coef_[0],regr.coef_[1])#印出重量與體積的回歸係數
+print(regr.intercept_)
 # print(predictedCO2)
 r_value, _ = stats.pearsonr(df['Weight'], df['CO2'])
 print(f"Weight 和 CO2 的 R 值: {r_value}")

@@ -4,10 +4,10 @@ arr=numpy.array([
     [1,3,5,7,9,11],
 ])
 
-# result=numpy.vsplit(arr,2)
+result=numpy.vsplit(arr,2)
 
-# print(result)
+print(result)
 
-# result=numpy.hsplit(arr,3)
+result=numpy.hsplit(arr,3)
 
-# print(result)
+print(result)
